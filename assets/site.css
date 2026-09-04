@@ -32,16 +32,16 @@ img { max-width: 100%; display: block; }
 .video-wrap { position: absolute; inset: 0; will-change: opacity; }
 .video-wrap video {
   position: absolute; inset: 0; width: 100%; height: 100%;
-  object-fit: cover; object-position: center 20%;
-  filter: brightness(1.1) contrast(1.05);
+  object-fit: cover; object-position: center 42%;
+  filter: brightness(0.82) contrast(1.08) saturate(1.12);
 }
 .video-scrim {
   position: absolute; inset: 0;
   background: linear-gradient(180deg,
-    color-mix(in oklab, var(--forest-deep) 10%, transparent) 0%,
-    transparent 42%,
-    color-mix(in oklab, var(--forest-deep) 14%, transparent) 72%,
-    color-mix(in oklab, var(--forest-deep) 42%, transparent) 100%);
+    color-mix(in oklab, var(--forest-deep) 38%, transparent) 0%,
+    color-mix(in oklab, var(--forest-deep) 12%, transparent) 36%,
+    color-mix(in oklab, var(--forest-deep) 28%, transparent) 68%,
+    color-mix(in oklab, var(--forest-deep) 62%, transparent) 100%);
 }
 header {
   position: fixed; inset-inline: 0; top: 0; z-index: 50;

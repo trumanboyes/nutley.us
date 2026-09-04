@@ -24,7 +24,7 @@
 
   if (video) {
     video.addEventListener("loadedmetadata", function () {
-      if (video.currentTime < 1) video.currentTime = 5.5;
+      video.play().catch(function () {});
     });
   }
 
